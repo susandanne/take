@@ -1,0 +1,354 @@
+/*
+	Author : suman lala
+	Address: 
+	Website: 
+	Email  : 
+	Version: 1.0
+*/
+
+/*******************
+    Global CSS
+*******************/
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+.rotate-left{
+	transform:rotate(90deg);
+	text-align:left;
+	font-size:20px;
+}
+
+/**********************
+    Banner Section
+**********************/
+.banner{
+	background: url(bannerimage.png)no-repeat center top;
+	background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+	padding:44px 0px 310px;
+}
+
+
+.banner h1{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-bottom: 70px;
+}
+.banner .iposition {
+	position:absolute;
+}
+
+
+
+
+/**********************
+    About Us
+**********************/
+.about-us{
+	padding: 70px 0;
+}
+.about-us h1{
+	font-size: 36px;
+	color:#656767;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	font-weight: 300;
+}
+
+.about-us p{
+	font-size: 13px;
+	
+	color: gray;
+	font-weight: 300;
+	line-height:28px;
+}
+.padd{
+	padding-top:168px;
+}
+/**********************
+    Portfolio 
+**********************/
+.portfolio{
+	padding-bottom:50px;
+}
+.portfolio h1{
+	color: #333;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+}
+.portfolio p{
+	font-size: 16px;
+	text-align: center;
+	color: #FFE600;
+	font-weight: 300;
+}
+.padd2{
+	padding-top:16px;
+	
+}
+
+.portfolio .img:hover{
+	transform: scale(1.1,1.1);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+	
+}
+
+/**********************
+       description
+**********************/
+.description{
+	padding: 0px 0px 65px;
+
+}
+.description h1{
+	color: #9d9d9d;
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-bottom:30px;
+}
+.description h4{
+	color:#67676d;
+	font-weight:400i;
+	text-transform:capitalize;
+	padding-bottom:10px;
+}
+.description p{
+	font-size: 14px;
+	color: #9d9d9d;
+	font-weight: 300;
+}
+
+
+
+/**********************
+       Car
+**********************/
+.car{
+	padding: 70px 0px;
+	background-image:url(bg2.png);
+	background-size:cover;
+				
+
+}
+
+.jumbotron {
+    
+    padding-bottom: 0px;
+	padding-top:181px;
+}
+
+ .container .jumbotron{
+	padding-right: 366px;
+	padding-left: 184px;
+	background-color:transparent;
+}
+.car h1{
+	font-size: 60px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top:160px;
+	
+}
+.car p{
+	font-size: 13px;
+	font-weight: 300;
+	color: #fff;
+}
+
+/**********************
+       paragraph
+**********************/
+.paragraph{
+	padding:65px 0px 90px;
+	background-color:#82ca9c;
+	color:#fff;
+}
+.paragraph h1{
+	padding-bottom:32px;
+	font-weight:300;
+}
+.paragraph h5{
+	padding-bottom:22px;
+	font-weight:400;
+	
+}
+.paragraph p{
+	font-weight:300;
+	font-size:12px;
+}
+ /**********************
+       social
+**********************/
+.social{
+	background-color:#f6f7fa;
+	padding-top: 24px;
+	padding-bottom: 40px;
+}
+}
+.social ul{
+	list-style:none;
+	
+    padding-left:4px;
+    padding-top:5px;
+}
+.social ul li {
+
+	display:inline;
+	padding-right:10px;
+
+}
+.social .bgcolor{
+	background-color:white;
+	padding:20px 55px;
+	margin:-24px 0px;
+}
+.social p{
+	
+	font-weight:400;
+}
+/**********************
+       Footer 
+**********************/
+.footer{
+	background: #192431;
+	color: #bbbfc4;
+	padding:50px 0px;
+}
+.footer h6{
+	padding-bottom:10px;
+
+}
+.footer p{
+	font-size:11px;
+	line-height:20px;
+	
+}
+.footer .pad{
+	padding-top:50px;
+	padding-left:0px;
+}
+.footer .color{
+	color:#3a495a;
+	padding-top:10px;
+	line-height:18px;
+}
+
+
+
+
+
+/*****************
+	Media Query
+*****************/
+@media screen and (max-width: 480px){
+	.banner{
+		height: auto;
+	}
+	.about-us{
+	padding:10px 0px;
+	}
+	.padd{
+	padding-top:0px;
+	}
+	.container .jumbotron{
+	padding-right:0px;
+	padding-left:0px;
+	background-color:transparent;
+	}
+	.description h1{
+		padding-bottom:5px;
+	}
+	.description h4{
+		padding-bottom:2px;
+	}
+	.car h1{
+	font-size: 24px;
+
+	
+	padding-top:160px;
+	}
+
+	
+	.portfolio {
+	    padding: 20px 0;
+	}
+	
+	.portfolio-img{
+		margin-bottom:15px;
+	}
+	.paragraph{
+	padding:0px 0px 0px;
+	background-color:#82ca9c;
+	
+	}	
+	
+	.paragraph h1{
+	padding-bottom:5px;
+	}
+	.social{
+	background-color:#f6f7fa;
+	padding:5px 0px;
+	}
+
+	.social .bgcolor{
+	background-color:white;
+	padding:5px 15px;
+	margin:0px 0px;
+	}
+	.footer{
+	
+	
+	padding:5px 0px;
+	}
+	.footer .pad{
+
+	
+	padding:10px 0px;
+	}
+
+}
+	@media only screen and (max-width:1200px){
+    
+	.container .jumbotron{
+	padding-right:0px;
+	padding-left:0px;
+	background-color:transparent;
+	}
+
+
+}
+@media only screen and (max-width:500px){
+    
+	.container .jumbotron{
+	padding-right:0px;
+	padding-left:0px;
+	background-color:transparent;
+	}
+
+
+}
+	@media only screen and (max-width:1200px){
+	.social{
+	background-color:#f6f7fa;
+	padding:0px 0px 5px;
+	}
+	.social .bgcolor{
+	background-color:white;
+	padding:5px 15px;
+	margin:0px 0px;
+	}
+
+	
+}
+
